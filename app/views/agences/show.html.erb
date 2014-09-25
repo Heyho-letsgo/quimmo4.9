@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Nom:</strong>
+  <%= @agence.nom %>
+</p>
+
+<p>
+  <strong>Principal groupe:</strong>
+  <%= @agence.principal_groupe %>
+</p>
+
+<p>
+  <strong>Sous groupe:</strong>
+  <%= @agence.sous_groupe %>
+</p>
+
+<%= link_to 'Edit', edit_agence_path(@agence) %> |
+<%= link_to 'Back', agences_path %>

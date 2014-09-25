@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :sous_groupes
+
   resources :principal_groupes
 
   resources :agences

@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Nom:</strong>
+  <%= @travailleur.nom %>
+</p>
+
+<p>
+  <strong>Principal groupe:</strong>
+  <%= @travailleur.principal_groupe %>
+</p>
+
+<p>
+  <strong>Sous groupe:</strong>
+  <%= @travailleur.sous_groupe %>
+</p>
+
+<p>
+  <strong>Agence:</strong>
+  <%= @travailleur.agence %>
+</p>
+
+<p>
+  <strong>User:</strong>
+  <%= @travailleur.user %>
+</p>
+
+<%= link_to 'Edit', edit_travailleur_path(@travailleur) %> |
+<%= link_to 'Back', travailleurs_path %>
